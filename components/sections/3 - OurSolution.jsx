@@ -14,8 +14,8 @@ export default function OurSolution() {
         <div className="flex flex-col gap-6 mt-12">
           <div>
             <h2 className="text-xl lg:text-2xl xl:text-3xl text-black font-semibold tracking-tighter">Our Solution</h2>
-            <p className="text-lg mt-4 tracking-tight text-neutral-600">At Blue Ocean, we believe that everyone has a role to play in protecting our oceans. That's why we're working to raise awareness about the threats facing our oceans and to inspire people to take action to protect them.</p>
-            <p className="text-lg mt-4 tracking-tight text-neutral-600">We're also working to support organizations that are working to protect our oceans. We provide funding and resources to help them carry out their important work, and we're always looking for new ways to support their efforts.</p>
+            <p className="text-lg mt-4 tracking-tight text-neutral-600">At Blue Ocean, we believe that everyone has a role to play in protecting our oceans. That&apos;s why we&apos;re working to raise awareness about the threats facing our oceans and to inspire people to take action to protect them.</p>
+            <p className="text-lg mt-4 tracking-tight text-neutral-600">We&apos;re also working to support organizations that are working to protect our oceans. We provide funding and resources to help them carry out their important work, and we&apos;re always looking for new ways to support their efforts.</p>
             <p className="text-lg mt-4 tracking-tight text-neutral-600">Together, we can make a difference. Join us in our mission to protect our oceans and the creatures that call them home.</p>
           </div>
           
