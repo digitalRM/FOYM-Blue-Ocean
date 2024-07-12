@@ -13,6 +13,7 @@ export default function Banner() {
           </p>
         </div>
       </a>
+      <div className="absolute -inset-2 rounded-[50px] bg-gradient-to-r from-blue-500 to-blue-950 opacity-40 blur-xl"/> 
     </div>
   )
 }
