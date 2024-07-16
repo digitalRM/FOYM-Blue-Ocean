@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex-col flex w-screen overflow-hidden scroll-smooth">  
+    <div className="flex-col flex w-screen scroll-smooth">  
       <Hero />
       <TheProblem />
       <OurSolution />
