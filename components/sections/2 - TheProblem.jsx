@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function TheProblem() {
@@ -15,9 +16,9 @@ export default function TheProblem() {
 
         <div className='relative pb-24 lg:pb-0 '>
           <div className="relative w-full h-full z-10 grid lg:grid-cols-2 lg:scale-105">
-            <img src="https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ocean" className="aspect-video lg:aspect-[] rounded-lg border-4 border-white/50 lg:-rotate-3 lg:translate-x-4 lg:translate-y-8 lg:scale-110" />
-            <img src="https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=3648&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ocean" className="aspect-video lg:aspect-[] absolute lg:relative translate-x-12 md:translate-x-24 translate-y-6 md:translate-y-12 rounded-lg border-4 border-white/50 lg:rotate-3 lg:translate-x-4 lg:translate-y-12 lg:scale-110" />
-            <img src="https://images.unsplash.com/photo-1551244072-5d12893278ab?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ocean" className="aspect-video lg:aspect-[] absolute lg:relative translate-x-24 md:translate-x-48 translate-y-12 md:translate-y-24 lg:translate-y-0 rounded-lg border-4 border-white/50 lg:rotate-3 lg:translate-x-32 lg:scale-125" />
+            <Image src="https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c" width={500} height={400} alt="ocean" className="aspect-video lg:aspect-[] rounded-lg border-4 border-white/50 lg:-rotate-3 lg:translate-x-4 lg:translate-y-8 lg:scale-110" />
+            <Image src="https://images.unsplash.com/photo-1583212292454-1fe6229603b7" width={500} height={400} alt="ocean" className="aspect-video lg:aspect-[] absolute lg:relative translate-x-12 md:translate-x-24 translate-y-6 md:translate-y-12 rounded-lg border-4 border-white/50 lg:rotate-3 lg:translate-x-4 lg:translate-y-12 lg:scale-110" />
+            <Image src="https://images.unsplash.com/photo-1551244072-5d12893278ab" width={500} height={400} alt="ocean" className="aspect-video lg:aspect-[] absolute lg:relative translate-x-24 md:translate-x-48 translate-y-12 md:translate-y-24 lg:translate-y-0 rounded-lg border-4 border-white/50 lg:rotate-3 lg:translate-x-32 lg:scale-125" />
             
           </div>
         </div>

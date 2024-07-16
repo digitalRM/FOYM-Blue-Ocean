@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function OurSolution() {
@@ -6,9 +7,9 @@ export default function OurSolution() {
       <div className="mx-auto max-w-[1140px] px-6 py-20 lg:py-32 lg:px-8 relative flex flex-col-reverse lg:grid lg:grid-cols-2 gap-12 -mb-12">
         <div className='relative'>
           <div className="lg: top-0 left-0 w-full h-full z-0 grid lg:grid-cols-2 scale-105 pb-24 lg:pb-0">
-            <img src="https://images.unsplash.com/photo-1576436445430-43d6d7c9aea5?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ocean" className="aspect-video rounded-lg border-4 border-neutral-400/50 lg:-rotate-3 lg:-translate-x-4 lg:translate-y-8 lg:scale-110 lg:h-56 lg:aspect-square" />
-            <img src="https://images.unsplash.com/photo-1582967788606-a171c1080cb0?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ocean" className="aspect-video absolute lg:relative translate-x-12 md:translate-x-24rounded-lg translate-y-6 md:translate-y-12 border-4 border-neutral-400/50 lg:rotate-3 lg:-translate-x-12 lg:translate-y-12 lg:scale-110 lg:h-56 lg:aspect-square" />
-            <img src="https://images.unsplash.com/photo-1582623838120-455da222cdc7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ocean" className="aspect-video lg:aspect-[] absolute lg:relative translate-x-24 md:translate-x-48 translate-y-12 md:translate-y-24 rounded-lg border-4 border-neutral-400/50 lg:rotate-3 lg:translate-x-24 lg:-translate-y-8 lg:scale-125 lg:h-48" />
+            <Image src="https://images.unsplash.com/photo-1576436445430-43d6d7c9aea5" width={500} height={400} alt="ocean" className="aspect-video rounded-lg border-4 border-neutral-400/50 lg:-rotate-3 lg:-translate-x-4 lg:translate-y-8 lg:scale-110 lg:h-56 lg:aspect-square" />
+            <Image src="https://images.unsplash.com/photo-1582967788606-a171c1080cb0" width={500} height={400} alt="ocean" className="aspect-video absolute lg:relative translate-x-12 md:translate-x-24rounded-lg translate-y-6 md:translate-y-12 border-4 border-neutral-400/50 lg:rotate-3 lg:-translate-x-12 lg:translate-y-12 lg:scale-110 lg:h-56 lg:aspect-square" />
+            <Image src="https://images.unsplash.com/photo-1582623838120-455da222cdc7" width={500} height={400} alt="ocean" className="aspect-video lg:aspect-[] absolute lg:relative translate-x-24 md:translate-x-48 translate-y-12 md:translate-y-24 rounded-lg border-4 border-neutral-400/50 lg:rotate-3 lg:translate-x-24 lg:-translate-y-8 lg:scale-125 lg:h-48" />
           </div>
         </div>
         <div className="flex flex-col gap-6 mt-12">

@@ -21,7 +21,7 @@ export default function Footer() {
              © 2024 Blue Ocean. - An FOYM Template 
             </p>
             <p className="text-xs text-neutral-800 mt-8 sm:mt-0">
-            Use this template for free on <a href="https://www.foym.org" className="text-black hover:underline">foym.org</a>
+            Use this template for free on <a href="https://www.foym.org" className="text-black underline">foym.org</a>
             </p>
           </div>
         </div>
